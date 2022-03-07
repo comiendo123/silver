@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appsilvermin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".superusuario.ingresardatos.ingresardatos"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.verdatos.filtroanio"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.verdatos.filtromes"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.verdatos.filtrodia"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.vertrabajadores.vertrabajadores"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.verequipos.verequipos"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.verdatos.verdatos"
+            android:exported="false" />
+        <activity
+            android:name=".superusuario.superactivity"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.equipo.insertarequipo.insertarequipo"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.equipo.insertarequipo.modificarequipo"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.equipo.insertarequipo.detalleequipo"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.historial.verhistorial"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.reactivo.insertarreactivos.insertarreactivos"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.equipo.verequipos"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.equipo.insertarequipo.insertarequipo.insertarequiops"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.reactivo.insertarreactivos.verreactivos"
+            android:exported="false" />
+        <activity
+            android:name=".mecanico.insertarequipo.insertarequipo"
+            android:exported="false" />
+        <activity
+            android:name=".reactiveros.insertarflotacion.reactivos.verreactivos"
+            android:exported="false" />
+        <activity
+            android:name=".reactiveros.insertarflotacion.insertarflotacion"
+            android:exported="false" />
+        <activity
+            android:name=".molinero.ingresarmolienda.insertarmoliendas"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.flotacion.admindetallecelda"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.molino.admindetallemolino"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.chancadora.admindetallechancadora"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverusuarios.admindetalleusuario"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverusuarios.modificarperfil"
+            android:exported="false" />
+        <activity
+            android:name=".mecanico.mecanico"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.maquinaria.agregarmaquinaria"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.molino.agregarmolino"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.chancadora.agregarchancadora"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.flotacion.agregarcelda"
+            android:exported="false" />
+        <activity
+            android:name=".tritudorista.usuariotritudorista"
+            android:exported="false" />
+        <activity
+            android:name=".almacenero.almacenero"
+            android:exported="false" />
+        <activity
+            android:name=".reactiveros.usuarioreactivero"
+            android:exported="false" />
+        <activity
+            android:name=".molinero.usuariomolinero"
+            android:exported="false" />
+        <activity
+            android:name=".invitado"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.maquinaria.modificarmaquinaria"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.molino.modificarmolino"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.flotacion.modificarcelda"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.flotacion.celda"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.chancadora.modificarchancadora"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.chancadora.chancadora"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.molino.molino"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.maquinaria.maquinaria"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverusuarios.agregartrabajador"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverusuarios.adminverusuarios"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverreportes.adminverreportes"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.adminverceldas.adminverceldas"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.administrador"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
